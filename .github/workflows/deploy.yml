@@ -13,6 +13,7 @@ on:
 
 env:
   IMAGE_NAME: demodeploy # 이미지 이름 설정
+  OWNER_LC: hyojung-kim   # 깃허브 유저/오너 이름(이미 소문자면 그냥 쓰면 됨)
 
 jobs:
   makeTagAndRelease:
